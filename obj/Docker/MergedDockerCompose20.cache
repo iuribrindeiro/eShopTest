@@ -1,0 +1,21 @@
+services:
+  eshoptest.presentation:
+    build:
+      context: C:\Users\iurib\source\repos\eShopTest
+      dockerfile: eShopTest.Presentation/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44392'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: eshoptestpresentation
+    ports:
+    - published: 50584
+      target: 80
+    - published: 44392
+      target: 443
+    volumes:
+    - C:\Users\iurib\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\iurib\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  sql.data:
+    image: microsoft/mssql-server-linux:2017-latest
+version: '3.4'

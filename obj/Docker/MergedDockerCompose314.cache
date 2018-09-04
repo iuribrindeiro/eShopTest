@@ -1,0 +1,45 @@
+services:
+  eshoptest.presentation:
+    build:
+      context: C:\Users\iurib\source\repos\eShopTest
+      dockerfile: eShopTest.Presentation/Dockerfile
+      target: base
+    depends_on:
+    - sql.data
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44392'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: Server=sql.data;Database=master;User Id=sa;Password=Pass@word
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: eshoptestpresentation:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp2.1/eShopTest.Presentation.dll'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 50584
+      target: 80
+    - published: 44392
+      target: 443
+    volumes:
+    - C:\Users\iurib\source\repos\eShopTest\eShopTest.Presentation:/app:rw
+    - C:\Users\iurib\vsdbg\vs2017u5:/remote_debugger:ro
+    - C:\Users\iurib\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\iurib\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\iurib\.nuget\packages:/root/.nuget/packages:ro
+  sql.data:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Pass@word
+    image: microsoft/mssql-server-linux:2017-latest
+    ports:
+    - published: 5433
+      target: 1433
+version: '3.4'

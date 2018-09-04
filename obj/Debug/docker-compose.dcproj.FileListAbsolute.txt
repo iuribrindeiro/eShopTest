@@ -1,0 +1,14 @@
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Presentation.dll
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Domain.dll
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.ApplicationService.dll
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Infra.IoC.dll
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Infra.Data.dll
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Presentation.pdb
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Presentation.xml
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Domain.pdb
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.ApplicationService.pdb
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Infra.IoC.pdb
+C:\Users\iurib\source\repos\eShopTest\bin\Debug\eShopTest.Infra.Data.pdb
+C:\Users\iurib\source\repos\eShopTest\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\iurib\source\repos\eShopTest\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\iurib\source\repos\eShopTest\obj\Debug\docker-compose.dcproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\bin\Debug\netcoreapp2.1\eShopTest.Domain.deps.json
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\bin\Debug\netcoreapp2.1\eShopTest.Domain.dll
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\bin\Debug\netcoreapp2.1\eShopTest.Domain.pdb
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\obj\Debug\netcoreapp2.1\eShopTest.Domain.csprojAssemblyReference.cache
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\obj\Debug\netcoreapp2.1\eShopTest.Domain.csproj.CoreCompileInputs.cache
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\obj\Debug\netcoreapp2.1\eShopTest.Domain.AssemblyInfoInputs.cache
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\obj\Debug\netcoreapp2.1\eShopTest.Domain.AssemblyInfo.cs
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\obj\Debug\netcoreapp2.1\eShopTest.Domain.dll
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Domain\obj\Debug\netcoreapp2.1\eShopTest.Domain.pdb

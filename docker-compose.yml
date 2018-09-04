@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  sql.data:
+    image: microsoft/mssql-server-linux:2017-latest
+
+  eshoptest.presentation:
+    image: ${DOCKER_REGISTRY}eshoptestpresentation
+    build:
+      context: .
+      dockerfile: eShopTest.Presentation/Dockerfile
+    depends_on:
+      - sql.data

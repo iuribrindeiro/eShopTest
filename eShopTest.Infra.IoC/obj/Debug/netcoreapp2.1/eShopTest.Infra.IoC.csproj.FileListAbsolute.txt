@@ -1,0 +1,16 @@
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.Infra.IoC.deps.json
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.Infra.IoC.dll
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.Infra.IoC.pdb
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.ApplicationService.dll
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.Domain.dll
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.Infra.Data.dll
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.ApplicationService.pdb
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.Domain.pdb
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\bin\Debug\netcoreapp2.1\eShopTest.Infra.Data.pdb
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\obj\Debug\netcoreapp2.1\eShopTest.Infra.IoC.csprojAssemblyReference.cache
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\obj\Debug\netcoreapp2.1\eShopTest.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\obj\Debug\netcoreapp2.1\eShopTest.Infra.IoC.AssemblyInfoInputs.cache
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\obj\Debug\netcoreapp2.1\eShopTest.Infra.IoC.AssemblyInfo.cs
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\obj\Debug\netcoreapp2.1\eShopTest.Infra.IoC.csproj.CopyComplete
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\obj\Debug\netcoreapp2.1\eShopTest.Infra.IoC.dll
+C:\Users\iurib\source\repos\eShopTest\eShopTest.Infra.IoC\obj\Debug\netcoreapp2.1\eShopTest.Infra.IoC.pdb
